@@ -13,6 +13,8 @@
 ## Puglins usados
 * [onehalf (tema)](https://github.com/sonph/onehalf/tree/master/vim)
 * [nvim-completion-manager](https://github.com/ncm2/ncm2)
+* [Asynchronous Lint Engine (detecta erros)](https://github.com/dense-analysis/ale)
+* [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
 
 ## Como usar
 * ```cd ~/.config/nvim``` 
