@@ -1,10 +1,19 @@
 call plug#begin()
-Plug "morhetz/gruvbox"
-
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
 call plug#end()
 
-colorscheme gruvbox
-set background=dark
+syntax on
+set t_Co=256
+set cursorline
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+
+autocmd BufEnter * call ncm2#enable_for_buffer()
+set completeopt=noinsert,menuone,noselect
 
 set hidden
 set tabstop=4
