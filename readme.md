@@ -17,6 +17,9 @@
 * [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
 
 ## Como usar
+Execute os seguintes comandos:
+
 * ```cd ~/.config/nvim``` 
 * ```git clone https://github.com/DanielNasc/my-nvim-config.git```
+* ```./command```
 * Abra o NeoVim e digite o comando```PlugInstall```
