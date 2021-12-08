@@ -32,7 +32,8 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 
 Execute os seguintes comandos:
 
-- `cd ~/.config/nvim`
+- `cd ~/.config/
 - `git clone https://github.com/DanielNasc/my-nvim-config.git`
-- `./command`
+- `mv my-nvim-config nvim`
+- `cd nvim && ./command`
 - Abra o NeoVim e digite o comando `PlugInstall`
