@@ -25,15 +25,28 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 - [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - [lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 
 ## Como usar
 
 Execute os seguintes comandos:
 
-- `cd ~/.config/
+- `cd ~/.config/`
 - `git clone https://github.com/DanielNasc/my-nvim-config.git`
 - `mv my-nvim-config nvim`
 - `cd nvim && ./command`
 - Abra o NeoVim e digite o comando `PlugInstall`
+
+## Autocomplete
+
+Esses são os servidores que estão sendo usados (e suas respectivas linguagens):
+* clangd - C
+* pyright - Python
+* tsserver - Typescript
+
+No meu caso, eu usei os comandos para instalar os servidores:
+* `sudo apt install clangd`
+* `sudo snap install pyright`
+* `sudo npm install -g typescript typescript-language-server`
+
+Se você quiser usar outros servidores: [Veja aqui](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
