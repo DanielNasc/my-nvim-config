@@ -10,6 +10,8 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
 syntax on
@@ -26,6 +28,10 @@ set number
 let mapleader = "\<space>"
 nnoremap <leader>ev :edit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>cp i#include <stdio.h><cr><cr>int main()<cr>{<cr>return 0;<cr>}<esc>4Go
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 lua << EOF
   -- Setup nvim-cmp.

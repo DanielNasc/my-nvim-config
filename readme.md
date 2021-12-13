@@ -18,6 +18,8 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 
 - `Espaço depois 'c' depois 'p'` - Escreve um programa em C básico;
 - `Espaço depois 'e' depois 'v'` - Abre rapidamente o arquivo de configurações do NeoVim.
+- `Espaço depois f depois f` - Find Files
+- `Espaço depois f depois b` - Buffers
 
 ## Puglins usados
 
@@ -26,6 +28,7 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - [lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [nvim-telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 ## Como usar
 
