@@ -43,13 +43,12 @@ Execute os seguintes comandos:
 ## Autocomplete
 
 Esses são os servidores que estão sendo usados (e suas respectivas linguagens):
-* clangd - C
+* ccls - C
 * pyright - Python
 * tsserver - Typescript
 
-No meu caso, eu usei os comandos para instalar os servidores:
-* `sudo apt install clangd`
-* `sudo snap install pyright`
+No meu caso (Arch Linux), eu usei os comandos para instalar os servidores:
+* `sudo pacman -S ccls pyright`
 * `sudo npm install -g typescript typescript-language-server`
 
 Se você quiser usar outros servidores: [Veja aqui](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
