@@ -1,5 +1,9 @@
 # My neovim config
 
+## Github Copilot
+
+Se você não tiver acesso ao Github Copilot, comente a linha `Plug 'github/copilot.vim'` em `init.vim`.
+
 ## Requisito - NeoVim atualizado
 
 As versões antigas do NeoVim não são compatíveis com o esses plugins. Tentei utilizar a versão 0.5.0, mas não consegui. <br>
@@ -19,7 +23,7 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 - `Espaço depois 'c' depois 'p'` - Escreve um programa em C básico;
 - `Espaço depois 'e' depois 'v'` - Abre rapidamente o arquivo de configurações do NeoVim.
 - `Espaço depois f depois f` - Find Files
-- `Espaço depois f depois b` - Buffers
+- `Espaço depois f depois b` - Buffers 
 
 ## Puglins usados
 
@@ -29,6 +33,8 @@ Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/
 - [lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [nvim-telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [NERDTree](https://github.com/preservim/nerdtree)
+- [Github Copilot](https://github.com/github/copilot-docs)
 
 ## Como usar
 
