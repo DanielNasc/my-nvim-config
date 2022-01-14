@@ -24,8 +24,12 @@ let g:airline_theme='onehalfdark'
 
 set hidden
 set tabstop=2
-set autoindent
 set number
+set autoindent
+set expandtab
+set smartindent
+set shiftwidth=2
+set softtabstop=2
 
 let mapleader = "\<space>"
 nnoremap <leader>ev :edit ~/.config/nvim/init.vim<cr>
