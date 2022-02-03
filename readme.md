@@ -11,7 +11,7 @@ Então clonei o repositório do NeoVim e o compilei na minha máquina. <br>
 Agora ele está na versão 0.6.0 e funcionando corretamente. <br>
 Se quiser fazer o mesmo, é só seguir esses [passos](https://github.com/neovim/neovim/wiki/Building-Neovim) (atente-se aos requisitos de compilação).
 
-❗ Isso foi antes de eu começar a usar o Arch Linux. Se você instalar usando o comando `sudo pacman -S neovim`, já vem a versão 0.6.1.
+❗ Isso foi antes de eu começar a usar o Arch Linux. Se você instalar usando o comando `sudo pacman -S neovim`, já vem a versão mais nova.
 
 ## Configurações usadas
 
